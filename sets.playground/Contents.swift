@@ -1,3 +1,4 @@
 import UIKit
 
-var greeting = "Hello, playground"
+// sets
+var setExample : Set =  [1,2,3,4,5]
