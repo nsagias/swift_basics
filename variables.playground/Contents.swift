@@ -55,6 +55,13 @@ var isBoolean: Bool = false
 isBoolean = true
 
 
+// define variable
+let myStringVariable: String;
+
+// initialize variable
+myStringVariable = "example"
+let myNewUpperVariable = myStringVariable.uppercased()
+
 
 
 
