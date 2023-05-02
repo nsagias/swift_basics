@@ -10,7 +10,7 @@ var myNumber = 5 * 4
 print(myNumber)
 
 
-var userName = "Nick"
+var userName: String = "Nick"
 // add to end of string
 userName.append("a")
 
@@ -29,7 +29,6 @@ userName.count
 // loop through using built-in foreach
 userName.forEach {
     char in print(char)
-    
 }
 // String.index no value
 userName.endIndex
@@ -43,13 +42,23 @@ userName.first?.uppercased()
 // capitalize and return string
 userName.capitalized
 
-
-// constant cannot be re-assigned
 // integer type
-let userNumber = 10
+let userNumber: Int = 10
+var variableNumber: Int = 10
 
 // double type
-let pi = 3.14
+let pi: Double = 3.14
+let userNumberDouble: Double = 10.0
+
+// boolean
+var isBoolean: Bool = false
+isBoolean = true
+
+
+
+
+
+
 
 
 
