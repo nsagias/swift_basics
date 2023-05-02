@@ -1,8 +1,8 @@
 import UIKit
 
-var myArrayExample = ["Hello", "playground", "array example" ,"example"] as [String]
+var myArrayExample = ["Hello", "playground", "array example", "example"] as [String]
 
-var myArrayExampleCasting = ["Hello", "playground", "array example" ,"example"] as [Any]
+var myArrayExampleCasting = ["Hello", "playground", "array example", 10,"example"] as [Any]
 
 // return total elements in array
 myArrayExample.count
@@ -30,3 +30,12 @@ myArrayExample.joined()
 
 // print entire array to command line
 print(myArrayExample)
+
+// if typed array can access object variable
+myArrayExample[0].lowercased()
+
+// slicing array
+myArrayExample[myArrayExample.count - 1]
+
+// sort array elements alphabetically
+myArrayExample.sort()
