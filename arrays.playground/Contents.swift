@@ -1,6 +1,8 @@
 import UIKit
 
-var myArrayExample = ["Hello", "playground", "array example" ,"example"]
+var myArrayExample = ["Hello", "playground", "array example" ,"example"] as [String]
+
+var myArrayExampleCasting = ["Hello", "playground", "array example" ,"example"] as [Any]
 
 // return total elements in array
 myArrayExample.count
