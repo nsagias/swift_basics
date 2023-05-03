@@ -5,6 +5,10 @@ import UIKit
 var dictionaryExample: Dictionary = ["name": "Nick", "lastName": "Sagias"]
 print(dictionaryExample)
 
+dictionaryExample["lastName"] = "Sage"
+
+print("DICTIONARY EXAMPLE", dictionaryExample)
+
 var dictionaryExampleValues = dictionaryExample.values
 print("VALUES EXAMPLE", dictionaryExampleValues)
 
