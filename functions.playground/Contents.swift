@@ -21,3 +21,10 @@ func squareArea(a: Double, b: Double) -> Double {
 let squareResult: Double = squareArea(a: 5, b: 10)
 print(squareResult)
 
+// Compare two numbers
+func isEqualNumberValue(a: Double, b: Double) -> Bool {
+    return a == b
+}
+
+let numbersEqual: Bool = isEqualNumberValue(a: 10, b: 10)
+print(numbersEqual)
