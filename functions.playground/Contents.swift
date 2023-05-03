@@ -28,3 +28,15 @@ func isEqualNumberValue(a: Double, b: Double) -> Bool {
 
 let numbersEqual: Bool = isEqualNumberValue(a: 10, b: 10)
 print(numbersEqual)
+
+
+func stringValueResponse(a: Int, b: Int) -> String {
+    if (a > b) {
+        return "Greater"
+    } else  {
+        return "Less"
+    }
+}
+
+let numberCompareStringResult: String = stringValueResponse(a: 5, b: 10)
+print(numberCompareStringResult)
