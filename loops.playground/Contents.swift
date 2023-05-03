@@ -21,17 +21,21 @@ var fruitArray: Array = ["Apple", "Orange", "Peach", "Cheeries"] as [String]
 
 // print plus reverse
 for fruit in fruitArray.reversed() {
-    print(fruit)
+//    print(fruit)
 }
 
 // how to get the indices values
 for index in fruitArray.indices {
-    print("index:", index)
+//    print("index:", index)
 }
 
 // using enumerated example
 for (index, fruitArray) in fruitArray.enumerated() {
-    print("\(index): \(fruitArray) ")
+//    print("\(index): \(fruitArray)")
 }
 
+var numbersList: Array = [10, 20, 30, 40, 50, 60]
 
+for num in numbersList {
+    print(num / 5)
+}
