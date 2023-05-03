@@ -11,6 +11,13 @@ print("VALUES EXAMPLE", dictionaryExampleValues)
 var dictionaryExampleKeys = dictionaryExample.keys
 print("KEYS EXAMPLE",dictionaryExampleKeys)
 
-var dictionaryExamplefilter = dictionaryExample.filter({$0.key == "name"})
-print("FILTER EXAMPLE", dictionaryExamplefilter)
+var dictionaryExamplefilter1 = dictionaryExample.filter({$0.key == "name"})
+print("FILTER EXAMPLE BY KEY: ", dictionaryExamplefilter1)
+
+
+var dictionaryExample2: Dictionary = ["1st": 2, "2nd": 7, "3rd": 4, "4th": 5]
+
+var dictionaryExamplefilter2: Dictionary = dictionaryExample2.filter({ $0.value % 2 == 0})
+
+print("FILTER EXAMPLE VALUE EVEN", dictionaryExamplefilter2)
 
