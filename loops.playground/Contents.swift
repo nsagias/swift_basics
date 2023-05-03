@@ -2,16 +2,36 @@ import UIKit
 
 var aNumber: Int = 0
 
-// while loop
+// while number loop
 while aNumber <= 10 {
-    print(aNumber)
+//    print(aNumber)
     aNumber += 1
 }
 
-// boolean example
+// while boolean example
 var isActive: Bool = true
 
 while isActive == true {
-    print("isActive")
+//    print("isActive")
     isActive = false
 }
+
+// For loop example
+var fruitArray: Array = ["Apple", "Orange", "Peach", "Cheeries"] as [String]
+
+// print plus reverse
+for fruit in fruitArray.reversed() {
+    print(fruit)
+}
+
+// how to get the indices values
+for index in fruitArray.indices {
+    print("index:", index)
+}
+
+// using enumerated example
+for (index, fruitArray) in fruitArray.enumerated() {
+    print("\(index): \(fruitArray) ")
+}
+
+
