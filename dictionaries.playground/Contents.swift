@@ -6,8 +6,10 @@ var dictionaryExample: Dictionary = ["name": "Nick", "lastName": "Sagias"]
 print(dictionaryExample)
 
 dictionaryExample["lastName"] = "Sage"
-
 print("DICTIONARY EXAMPLE", dictionaryExample)
+
+dictionaryExample["favouriteMovie"] = "Dark Knight"
+print("DICTIONARY EXAMPLE AFTER NEW K/V ADDED", dictionaryExample)
 
 var dictionaryExampleValues = dictionaryExample.values
 print("VALUES EXAMPLE", dictionaryExampleValues)
